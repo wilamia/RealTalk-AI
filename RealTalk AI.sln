@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTalk AI", "RealTalk AI.csproj", "{E5058337-0F55-46A1-98B2-685CA61113D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5058337-0F55-46A1-98B2-685CA61113D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5058337-0F55-46A1-98B2-685CA61113D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5058337-0F55-46A1-98B2-685CA61113D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5058337-0F55-46A1-98B2-685CA61113D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {882F2A7F-619D-4F5C-967B-B125BD8A8896}
+	EndGlobalSection
+EndGlobal
