@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealTalk_AI.MainPage"
+             BackgroundColor="#EFEFEF">
+
+    <ScrollView>
+        <StackLayout>
+            <!-- Custom Toolbar -->
+            <Grid BackgroundColor="White" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <ImageButton
+                    Source="menu_icon.svg" 
+                    WidthRequest="30"
+                    HeightRequest="30"
+                    SemanticProperties.Hint="Menu"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start" />
+
+                    <Label
+                    Text="SmartTalk AI"
+                    FontSize="20"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    Grid.Column="1"
+                    HorizontalOptions="Center" />
+            </Grid>
+            <VerticalStackLayout
+            Padding="30,0"
+            Spacing="20"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+
+            <Image
+                Source="robot_image.svg" 
+                HeightRequest="300"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Friendly AI robot" />
+
+                <Label
+                Text="Привет, Я готов помочь тебе!"
+                FontSize="32"
+                    TextColor="#305FD5"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"
+                SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                Text="Спроси меня о чём-нибудь. Я здесь, чтобы помочь тебе!"
+                FontSize="18"
+                    TextColor="#1E1E1E"
+                HorizontalTextAlignment="Center"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Ask me anything. I'm here to help!" />
+
+            <HorizontalStackLayout
+                Spacing="10"
+                HorizontalOptions="FillAndExpand">
+
+                <Entry
+                    x:Name="InputEntry"
+                    Placeholder="Введите ваш вопрос..."
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="#FFFFFF"
+                    Margin="0,0,10,0" />
+
+                <ImageButton
+                    Source="send_icon.svg"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    SemanticProperties.Hint="Нажмите, чтобы отправить"
+                    BackgroundColor="Transparent" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        </StackLayout>
+    </ScrollView>
+            
+
+</ContentPage>
