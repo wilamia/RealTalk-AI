@@ -326,3 +326,4 @@ E:\project\RealTalk AI\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\
 E:\project\RealTalk AI\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\robot_image@3x.png
 E:\project\RealTalk AI\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\robot_image@2x.png
 E:\project\RealTalk AI\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\RealTalk AI.sourcelink.json

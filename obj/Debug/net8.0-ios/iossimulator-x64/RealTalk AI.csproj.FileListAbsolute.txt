@@ -350,3 +350,5 @@ E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\menu_
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\robot_image@3x.png
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\robot_image@2x.png
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\RealTalk AI.sourcelink.json

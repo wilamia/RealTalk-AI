@@ -1,1 +1,0 @@
-E:\project\RealTalk AI\RealTalk AI.csproj;x64

@@ -1094,3 +1094,9 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\menu
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\menu_icon.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\menu_icon.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.sourcelink.json
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\stop_icon.png

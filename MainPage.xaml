@@ -6,78 +6,120 @@
 
     <ScrollView>
         <StackLayout>
-            <!-- Custom Toolbar -->
-            <Grid BackgroundColor="White" Padding="10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
+            <Frame
+    BackgroundColor="#EFEFEF"
+    Margin="0"
+    Padding="0"
+    CornerRadius="0"
+    HasShadow="False"
+                BorderColor="#20000000">
 
-                <ImageButton
-                    Source="menu_icon.svg" 
-                    WidthRequest="30"
-                    HeightRequest="30"
-                    SemanticProperties.Hint="Menu"
-                    BackgroundColor="Transparent"
-                    HorizontalOptions="Start" />
+                <StackLayout
+                    >
+                    <Grid BackgroundColor="Transparent" Padding="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-                    <Label
-                    Text="SmartTalk AI"
-                    FontSize="20"
-                    HorizontalTextAlignment="Center"
-                    VerticalTextAlignment="Center"
-                    Grid.Column="1"
-                    HorizontalOptions="Center" />
-            </Grid>
-            <VerticalStackLayout
-            Padding="30,0"
-            Spacing="20"
-            HorizontalOptions="Center"
-            VerticalOptions="Center">
+                        <ImageButton
+                Source="menu_icon.svg" 
+                WidthRequest="45"
+                HeightRequest="45"
+                SemanticProperties.Hint="Menu"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start" />
 
-            <Image
-                Source="robot_image.svg" 
-                HeightRequest="300"
-                Aspect="AspectFit"
-                SemanticProperties.Description="Friendly AI robot" />
-
-                <Label
-                Text="Привет, Я готов помочь тебе!"
-                FontSize="32"
-                    TextColor="#305FD5"
-                HorizontalTextAlignment="Center"
+                        <Label
+                Text="SmartTalk AI"
+                FontSize="20"
                 FontAttributes="Bold"
-                SemanticProperties.HeadingLevel="Level1" />
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FontFamily="Nunito-Bold"
+                Margin="-30,0,0,0"
+                Grid.Column="1"
+                TextColor="#305FD5"
+                HorizontalOptions="Center" />
+                    </Grid>
+
+ 
+                </StackLayout>
+            </Frame>
+
+            <VerticalStackLayout
+                x:Name="ChatLayout"
+    Padding="20" 
+    Spacing="20"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+
+                <Image
+                    Source="robot_image.svg" 
+                    HeightRequest="300"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="Friendly AI robot" 
+                    Margin="0,20,0,0" />
 
                 <Label
-                Text="Спроси меня о чём-нибудь. Я здесь, чтобы помочь тебе!"
-                FontSize="18"
+                    Text="Привет, 
+                    
+                    Я готов помогать тебе!"
+                    FontSize="28"
+                    TextColor="#305FD5"
+                    FontFamily="Nunito-Bold"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"
+                    SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                    Text="Спроси меня о чём-нибудь. 
+                    Я здесь, чтобы помочь тебе!"
+                    FontSize="18"
                     TextColor="#1E1E1E"
-                HorizontalTextAlignment="Center"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Ask me anything. I'm here to help!" />
+                      FontFamily="Nunito-Medium"
+                    HorizontalTextAlignment="Center"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Ask me anything. I'm here to help!" />
 
-            <HorizontalStackLayout
-                Spacing="10"
-                HorizontalOptions="FillAndExpand">
+                <Frame
+                    BackgroundColor="White"
+                    CornerRadius="15"
+                    BorderColor="Transparent"
+                    Padding="10"
+                    HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="End"
+                    HasShadow="True"
+                    Margin="0,50,0,30" >
+                    <Frame.Shadow>
+                        <Shadow Brush="Black" Offset="0,10" Opacity="0.5" Radius="10" />
+                    </Frame.Shadow>
 
-                <Entry
-                    x:Name="InputEntry"
-                    Placeholder="Введите ваш вопрос..."
-                    HorizontalOptions="FillAndExpand"
-                    BackgroundColor="#FFFFFF"
-                    Margin="0,0,10,0" />
+                    <HorizontalStackLayout
+                        Spacing="10"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="End">
 
-                <ImageButton
-                    Source="send_icon.svg"
-                    WidthRequest="50"
-                    HeightRequest="50"
-                    SemanticProperties.Hint="Нажмите, чтобы отправить"
-                    BackgroundColor="Transparent" />
-            </HorizontalStackLayout>
-        </VerticalStackLayout>
+                        <Entry
+                            x:Name="InputEntry"
+                            Placeholder="Введите ваш вопрос..."
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="#FFFFFF"
+                              FontFamily="Nunito-Medium"
+                            TextColor="Black"
+                            WidthRequest="275"
+                            Margin="0,0,10,0"/>
+
+                        <ImageButton
+                            Source="send_icon.svg"
+                            WidthRequest="25"
+                            HeightRequest="25"
+                            SemanticProperties.Hint="Нажмите, чтобы отправить"
+                            BackgroundColor="Transparent"
+                            Clicked="OnSendMessage"/>
+                    </HorizontalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
         </StackLayout>
     </ScrollView>
-            
-
 </ContentPage>
