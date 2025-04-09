@@ -93,14 +93,13 @@
                 </Frame>
             </VerticalStackLayout>
 
-            <Label Text="Забыли пароль?"
+            <Button Text="Забыли пароль?"
                HorizontalOptions="Center"
                    FontFamily="Nunito-Medium.ttf"
-               TextColor="#1E1E1E">
-                <Label.GestureRecognizers>
-                  <!--  <TapGestureRecognizer Tapped="OnForgotPasswordTapped" /> -->
-                </Label.GestureRecognizers>
-            </Label>
+               TextColor="#1E1E1E"
+                      BackgroundColor="Transparent"
+                    Clicked="OnForgotPasswordTapped">
+            </Button>
 
             <Button Text="Войти"
                 FontFamily="Nunito-Bold.ttf"

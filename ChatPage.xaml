@@ -7,57 +7,12 @@
     <StackLayout Padding="0">
 
         <!-- Header Section (Menu and Title) -->
-        <StackLayout>
-            <Frame
-                BackgroundColor="#EFEFEF"
-                Margin="0"
-                Padding="0"
-                CornerRadius="0"
-                HasShadow="False"
-                BorderColor="#20000000">
-
-                <StackLayout>
-                    <Grid BackgroundColor="Transparent" Padding="10">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-
-                        <!-- Menu Icon -->
-                        <ImageButton
-                            Source="menu_icon.svg"
-                            WidthRequest="45"
-                            HeightRequest="45"
-                            SemanticProperties.Hint="Menu"
-                            BackgroundColor="Transparent"
-                            HorizontalOptions="Start" />
-
-                        <!-- Title -->
-                        <Label
-                            Text="SmartTalk AI"
-                            FontSize="20"
-                            FontAttributes="Bold"
-                            HorizontalTextAlignment="Center"
-                            VerticalTextAlignment="Center"
-                            FontFamily="Nunito-Bold"
-                            Margin="-30,0,0,0"
-                            Grid.Column="1"
-                            TextColor="#305FD5"
-                            HorizontalOptions="Center" />
-                    </Grid>
-                </StackLayout>
-
-            </Frame>
-        </StackLayout>
-
-        <!-- Chat Section -->
         <ScrollView x:Name="ChatScrollView" VerticalOptions="FillAndExpand">
             <StackLayout x:Name="ChatLayout" Spacing="5">
-                <!-- Messages will be added here -->
+
             </StackLayout>
         </ScrollView>
 
-        <!-- Message Input Section -->
 
         <Frame
                     BackgroundColor="White"
@@ -69,7 +24,7 @@
                     HasShadow="True"
                     Margin="20,10,20,30" >
             <Frame.Shadow>
-                <Shadow Brush="Black" Offset="0,10" Opacity="0.5" Radius="10" />
+                <Shadow Brush="Black" Opacity="0.3" Radius="5" />
             </Frame.Shadow>
 
             <HorizontalStackLayout
@@ -89,12 +44,12 @@
 
                 <ImageButton
                     x:Name="SendButton"
-                            Source="send_icon.svg"
-                            WidthRequest="25"
-                            HeightRequest="25"
-                            SemanticProperties.Hint="Нажмите, чтобы отправить"
-                            BackgroundColor="Transparent"
-                            Clicked="OnSendMessage"/>
+                    Source="send_icon.svg"
+                    WidthRequest="25"
+                    HeightRequest="25"
+                    SemanticProperties.Hint="Нажмите, чтобы отправить"
+                    BackgroundColor="Transparent"
+                    Clicked="OnSendOrStopMessage"/>
             </HorizontalStackLayout>
         </Frame>
 

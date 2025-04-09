@@ -12,7 +12,7 @@
   <Properties>
     <DisplayName>RealTalk AI</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
-    <Logo>appiconStoreLogo.png</Logo>
+    <Logo>$placeholder$.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
@@ -24,8 +24,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="RealTalk AI.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="RealTalk AI" Description="RealTalk AI" Square150x150Logo="appiconMediumTile.png" Square44x44Logo="appiconLogo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="appiconSmallTile.png" Wide310x150Logo="appiconWideTile.png" Square310x310Logo="appiconLargeTile.png" ShortName="RealTalk AI">
+      <uap:VisualElements DisplayName="RealTalk AI" Description="RealTalk AI" Square150x150Logo="$placeholder$.png" Square44x44Logo="$placeholder$.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="$placeholder$.png" Wide310x150Logo="$placeholder$.png" Square310x310Logo="$placeholder$.png" ShortName="RealTalk AI">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />

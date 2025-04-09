@@ -1,30 +1,31 @@
 using Firebase.Auth;
 using Firebase.Auth.Providers;
 using Firebase.Auth.Repository;
-using Microsoft.Maui.Authentication;
+using Firebase.Database;
+using Firebase.Database.Query;
 using Microsoft.Maui.Controls;
 using System;
 using System.Threading.Tasks;
-namespace RealTalk_AI;
+using System.Text.Json;
 
+namespace RealTalk_AI
+{
     public partial class SignInPage : ContentPage
     {
         private FirebaseAuthClient authClient;
-    private bool isPasswordVisible = false;
+        private bool isPasswordVisible = false;
 
-    public SignInPage()
+        public SignInPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
 
             var config = new FirebaseAuthConfig
             {
                 ApiKey = "AIzaSyCdTJg_iSeWoX2Ete3-8emKdqBVnY71AIA",
                 AuthDomain = "realtalk-ai.firebaseapp.com",
-                Providers = new FirebaseAuthProvider[]
-                {
-                    new EmailProvider()
-                },
+                Providers = new FirebaseAuthProvider[] { new EmailProvider() },
                 UserRepository = new FileUserRepository("RealTalk_AI")
             };
 
@@ -44,39 +45,88 @@ namespace RealTalk_AI;
 
             try
             {
+             
                 var authResult = await authClient.SignInWithEmailAndPasswordAsync(email, password);
                 var user = authResult.User;
 
+                string idToken = await user.GetIdTokenAsync();
+
+                AuthService.SetAuthToken(idToken);
+
+                AuthService.SetUserEmail(user.Info.Email);
+
+                await FetchAndSaveUserInfo(user.Info.Email);
+
                 await DisplayAlert("Успех", $"Добро пожаловать, {user.Info.Email}", "OK");
 
-                await Navigation.PushAsync(new MainPage());
+                Application.Current.MainPage = new NavigationPage(new AppShell());
             }
             catch (FirebaseAuthException ex)
             {
                 await DisplayAlert("Ошибка входа", ex.Reason.ToString(), "OK");
             }
         }
-    private void OnEyeTapped(object sender, EventArgs e)
-    {
-        if (isPasswordVisible)
+
+      
+        private async Task FetchAndSaveUserInfo(string email)
         {
+            try
+            {
+                var httpClient = new HttpClient();
+                string encodedEmail = email.Replace("@", "_").Replace(".", "_");
 
-            passwordEntry.IsPassword = true;
-          
-            ((Image)sender).Source = "eye_close.png";
+                var response = await httpClient.GetAsync($"https://realtalk-ai-default-rtdb.firebaseio.com/users/{encodedEmail}.json");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var userInfo = JsonSerializer.Deserialize<UserInfo>(json);
+                    // Сохраняем
+                }
+                else
+                {
+                    await DisplayAlert("Ошибка", "Не удалось загрузить данные из Firebase", "OK");
+                }
+            }
+            catch (FirebaseException firebaseEx)
+            {
+                await DisplayAlert("Ошибка", $"Ошибка загрузки данных из Firebase: {firebaseEx.Message}", "OK");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ошибка", $"Ошибка загрузки данных: {ex.Message}", "OK");
+            }
         }
-        else
+
+        private void OnEyeTapped(object sender, EventArgs e)
         {
+            if (isPasswordVisible)
+            {
+                passwordEntry.IsPassword = true;
+                ((Image)sender).Source = "eye_close.png";
+            }
+            else
+            {
+                passwordEntry.IsPassword = false;
+                ((Image)sender).Source = "eye_open.svg";
+            }
 
-            passwordEntry.IsPassword = false;
-          
-            ((Image)sender).Source = "eye_open.svg";
+            isPasswordVisible = !isPasswordVisible;
         }
 
-        isPasswordVisible = !isPasswordVisible;
+        private async void OnForgotPasswordTapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ResetPasswordPage());
+        }
+        private async void OnSignUpClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SignUpPage());
+        }
     }
-    private async void OnSignUpClicked(object sender, EventArgs e)
+
+    public class UserInfo
     {
-        await Navigation.PushAsync(new SignUpPage());
+        public string Id { get; set; }
+        public string Username { get; set; } 
     }
 }

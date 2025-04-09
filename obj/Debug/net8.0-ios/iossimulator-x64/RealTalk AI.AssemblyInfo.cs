@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RealTalk AI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bde68aa273ab26170846438cf6544197805f7374")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5f08991f5b78da9de95043bf46fb720bf1fbd397")]
 [assembly: System.Reflection.AssemblyProductAttribute("RealTalk AI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RealTalk AI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

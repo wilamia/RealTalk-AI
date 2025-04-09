@@ -6,7 +6,15 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+
+            if (AuthService.IsUserAuthenticated())
+            {
+                MainPage = new AppShell();
+            }
+            else
+            {
+                MainPage = new NavigationPage(new SignInPage());
+            }
         }
     }
 }

@@ -6,46 +6,6 @@
 
     <ScrollView>
         <StackLayout>
-            <Frame
-    BackgroundColor="#EFEFEF"
-    Margin="0"
-    Padding="0"
-    CornerRadius="0"
-    HasShadow="False"
-                BorderColor="#20000000">
-
-                <StackLayout
-                    >
-                    <Grid BackgroundColor="Transparent" Padding="10">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-
-                        <ImageButton
-                Source="menu_icon.svg" 
-                WidthRequest="45"
-                HeightRequest="45"
-                SemanticProperties.Hint="Menu"
-                BackgroundColor="Transparent"
-                HorizontalOptions="Start" />
-
-                        <Label
-                Text="SmartTalk AI"
-                FontSize="20"
-                FontAttributes="Bold"
-                HorizontalTextAlignment="Center"
-                VerticalTextAlignment="Center"
-                FontFamily="Nunito-Bold"
-                Margin="-30,0,0,0"
-                Grid.Column="1"
-                TextColor="#305FD5"
-                HorizontalOptions="Center" />
-                    </Grid>
-
- 
-                </StackLayout>
-            </Frame>
 
             <VerticalStackLayout
                 x:Name="ChatLayout"
@@ -54,17 +14,25 @@
     HorizontalOptions="Center"
     VerticalOptions="Center">
 
+
                 <Image
                     Source="robot_image.svg" 
                     HeightRequest="300"
                     Aspect="AspectFit"
                     SemanticProperties.Description="Friendly AI robot" 
-                    Margin="0,20,0,0" />
+                    Margin="0,20,0,0" >
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="FileImageSource">
+                            <On Platform="Android" Value="robot_image.svg" />
+                            <On Platform="iOS" Value="robot_image.svg" />
+                            <On Platform="WinUI" Value="robot_image.png" />
+                            <On Platform="MacCatalyst" Value="robot_image.svg" />
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
 
                 <Label
-                    Text="Привет, 
-                    
-                    Я готов помогать тебе!"
+                    Text="Привет, Я готов помогать тебе!"
                     FontSize="28"
                     TextColor="#305FD5"
                     FontFamily="Nunito-Bold"
@@ -73,11 +41,10 @@
                     SemanticProperties.HeadingLevel="Level1" />
 
                 <Label
-                    Text="Спроси меня о чём-нибудь. 
-                    Я здесь, чтобы помочь тебе!"
+                    Text="Спроси меня о чём-нибудь. Я здесь, чтобы помочь тебе!"
                     FontSize="18"
                     TextColor="#1E1E1E"
-                      FontFamily="Nunito-Medium"
+                    FontFamily="Nunito-Medium"
                     HorizontalTextAlignment="Center"
                     SemanticProperties.HeadingLevel="Level2"
                     SemanticProperties.Description="Ask me anything. I'm here to help!" />
@@ -87,12 +54,14 @@
                     CornerRadius="15"
                     BorderColor="Transparent"
                     Padding="10"
-                    HorizontalOptions="FillAndExpand" 
+                    HorizontalOptions="Center"
                     VerticalOptions="End"
                     HasShadow="True"
-                    Margin="0,50,0,30" >
+                    Margin="0,50,0,30" 
+                    MinimumWidthRequest="300"
+                     MaximumWidthRequest="500">
                     <Frame.Shadow>
-                        <Shadow Brush="Black" Offset="0,10" Opacity="0.5" Radius="10" />
+                        <Shadow Brush="Black" Opacity="0.3" Radius="5" />
                     </Frame.Shadow>
 
                     <HorizontalStackLayout
@@ -107,16 +76,26 @@
                             BackgroundColor="#FFFFFF"
                               FontFamily="Nunito-Medium"
                             TextColor="Black"
-                            WidthRequest="275"
+                            MinimumWidthRequest="270"
+                           
                             Margin="0,0,10,0"/>
 
                         <ImageButton
                             Source="send_icon.svg"
-                            WidthRequest="25"
-                            HeightRequest="25"
-                            SemanticProperties.Hint="Нажмите, чтобы отправить"
-                            BackgroundColor="Transparent"
-                            Clicked="OnSendMessage"/>
+                            MinimumHeightRequest="25"
+                            MinimumWidthRequest="25"
+                            MaximumHeightRequest="100"
+                            MaximumWidthRequest="100"
+                            Clicked="OnSendMessage">
+                            <ImageButton.Source>
+                                <OnPlatform x:TypeArguments="FileImageSource">
+                                    <On Platform="Android" Value="send_icon.svg" />
+                                    <On Platform="iOS" Value="send_icon.svg" />
+                                    <On Platform="WinUI" Value="send_icon.png" />
+                                    <On Platform="MacCatalyst" Value="send_icon.svg" />
+                                </OnPlatform>
+                            </ImageButton.Source>
+                        </ImageButton>
                     </HorizontalStackLayout>
                 </Frame>
             </VerticalStackLayout>
