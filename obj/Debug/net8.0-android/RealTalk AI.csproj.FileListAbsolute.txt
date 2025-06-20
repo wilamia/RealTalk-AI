@@ -1,3 +1,11 @@
+E:\project\RealTalk AI\bin\Debug\net8.0-android\RealTalk AI.runtimeconfig.json
+E:\project\RealTalk AI\bin\Debug\net8.0-android\RealTalk AI.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\RealTalk AI.pdb
+E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai.apk
+E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai.aab
+E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai-Signed.aab
+E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai-Signed.apk
+E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai-Signed.apk.idsig
 E:\project\RealTalk AI\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 E:\project\RealTalk AI\obj\Debug\net8.0-android\build.props
 E:\project\RealTalk AI\obj\Debug\net8.0-android\adb.props
@@ -36,15 +44,57 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\f\Nunito-SemiBoldIta
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\f\Nunito-VariableFont_wght.ttf
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bot_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\eye_open.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\logout_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\search_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\send_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\settings_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bot_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\eye_open.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\logout_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\search_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\send_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\settings_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bot_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\eye_open.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\logout_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\search_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\send_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\settings_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bot_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\eye_open.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\logout_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\search_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\send_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\settings_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\stop_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bot_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\eye_open.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\logout_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\robot_image.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\search_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\send_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\settings_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\stop_icon.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable\email.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable\eye_close.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable\formkit_password.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable\google_logo.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable\menu.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable\vector.png
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
@@ -135,21 +185,10 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.GeneratedMSBuildEdit
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.AssemblyInfoInputs.cache
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.AssemblyInfo.cs
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.csproj.CoreCompileInputs.cache
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.sourcelink.json
+E:\project\RealTalk AI\obj\Debug\net8.0-android\XamlC.stamp
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.pdb
-E:\project\RealTalk AI\bin\Debug\net8.0-android\RealTalk AI.runtimeconfig.json
-E:\project\RealTalk AI\bin\Debug\net8.0-android\RealTalk AI.dll
-E:\project\RealTalk AI\bin\Debug\net8.0-android\RealTalk AI.pdb
-E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai.apk
-E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai.aab
-E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai-Signed.aab
-E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai-Signed.apk
-E:\project\RealTalk AI\bin\Debug\net8.0-android\com.companyname.realtalkai-Signed.apk.idsig
-E:\project\RealTalk AI\bin\Debug\net8.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
-E:\project\RealTalk AI\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-E:\project\RealTalk AI\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\XamlC.stamp
-E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk.F34F9107.Up2Date
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.genruntimeconfig.cache
 E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.runtimeconfig.json.bin
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\com.companyname.realtalkai.apk
@@ -167,6 +206,7 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\de\Microsoft.Maui
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\el\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\es\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Firebase.Auth.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Firebase.Database.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\fi\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\fr\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\GoogleGson.dll
@@ -193,7 +233,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Extensi
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Primitives.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Compatibility.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.HotReload.Forms.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.pdb
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.pdb
@@ -205,8 +244,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Gr
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.pdb
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.Core.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.TapContract.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Primitives.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Registry.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Mono.Android.dll
@@ -315,6 +352,10 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Private.Da
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Private.Xml.Linq.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reactive.Core.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reactive.Interfaces.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reactive.Linq.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reactive.PlatformServices.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reflection.DispatchProxy.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reflection.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\System.Reflection.Emit.dll
@@ -548,7 +589,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\zh-Hans\Microsoft
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\AndroidManifest.xml
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\AndroidManifest.xml
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -558,7 +598,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\mono.android.jar
 E:\project\RealTalk AI\obj\Debug\net8.0-android\static.flag
 E:\project\RealTalk AI\obj\Debug\net8.0-android\__environment__.txt
 E:\project\RealTalk AI\obj\Debug\net8.0-android\buildid.txt
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1057,13 +1096,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\mono\MonoPackageMana
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\packaged_resources
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\com\companyname\realtalkai\R.java
 E:\project\RealTalk AI\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\classes.dex
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\classes2.dex
 E:\project\RealTalk AI\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1074,23 +1106,40 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.sta
 E:\project\RealTalk AI\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 E:\project\RealTalk AI\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 E:\project\RealTalk AI\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\eye_open.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\eye_open.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\eye_open.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\eye_open.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\eye_open.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\robot_image.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\send_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\robot_image.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\send_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\robot_image.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\send_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\robot_image.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\send_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\robot_image.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\send_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\menu_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\menu_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\menu_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\menu_icon.png
-E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\menu_icon.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\home.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\home.png
+E:\project\RealTalk AI\bin\Debug\net8.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk.F34F9107.Up2Date
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.HotReload.Forms.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.TapContract.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\ru\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.csproj.GenerateResource.cache
+E:\project\RealTalk AI\obj\Debug\net8.0-android\ru\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.ru.resources
+E:\project\RealTalk AI\bin\Debug\net8.0-android\lt\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.lt.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-android\lt\RealTalk AI.resources.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\es\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.es.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-android\es\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

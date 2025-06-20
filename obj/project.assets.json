@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -471,6 +484,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -2238,6 +2323,19 @@
       }
     },
     "net8.0-android34.0/android-arm": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2707,6 +2805,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -4474,6 +4644,19 @@
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -4943,6 +5126,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -6710,6 +6965,19 @@
       }
     },
     "net8.0-android34.0/android-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -7179,6 +7447,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -8946,6 +9286,19 @@
       }
     },
     "net8.0-android34.0/android-x86": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -9415,6 +9768,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -11181,7 +11606,20 @@
         }
       }
     },
-    "net8.0-android34.0/iossimulator-x64": {
+    "net8.0-android34.0/ios-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -11651,6 +12089,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -13418,6 +13928,19 @@
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -13887,6 +14410,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -15654,6 +16249,19 @@
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -16123,6 +16731,78 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -17890,6 +18570,19 @@
       }
     },
     "net8.0-ios18.0": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -18335,11 +19028,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-ios18.0/android-arm": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -18785,11 +19563,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-ios18.0/android-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -19235,11 +20098,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-ios18.0/android-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -19685,11 +20633,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-ios18.0/android-x86": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -20135,11 +21168,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
-    "net8.0-ios18.0/iossimulator-x64": {
+    "net8.0-ios18.0/ios-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -20585,11 +21703,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-ios18.0/maccatalyst-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -21035,11 +22238,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-ios18.0/win10-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -21487,9 +22775,94 @@
             "related": ".xml"
           }
         }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net8.0-maccatalyst18.0": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -21935,11 +23308,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -22385,11 +23843,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-maccatalyst18.0/android-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -22835,11 +24378,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -23285,11 +24913,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-maccatalyst18.0/android-x86": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -23735,11 +25448,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
-    "net8.0-maccatalyst18.0/iossimulator-x64": {
+    "net8.0-maccatalyst18.0/ios-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -24185,11 +25983,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-maccatalyst18.0/maccatalyst-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -24635,11 +26518,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -25087,9 +27055,94 @@
             "related": ".xml"
           }
         }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -25706,9 +27759,94 @@
             "related": ".xml"
           }
         }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -26283,11 +28421,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -26862,11 +29085,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -27441,11 +29749,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -28020,11 +30413,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
-    "net8.0-windows10.0.19041/iossimulator-x64": {
+    "net8.0-windows10.0.19041/ios-arm64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -28599,11 +31077,96 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -29180,9 +31743,94 @@
             "related": ".xml"
           }
         }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "Firebase.Database/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Rx-Main": "2.2.5"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Firebase.Database.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -29765,10 +32413,94 @@
             "related": ".xml"
           }
         }
+      },
+      "Rx-Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Core.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Interfaces/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Interfaces.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Linq/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.Linq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Rx-Main/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5",
+          "Rx-Linq": "2.2.5",
+          "Rx-PlatformServices": "2.2.5"
+        }
+      },
+      "Rx-PlatformServices/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Rx-Core": "2.2.5",
+          "Rx-Interfaces": "2.2.5"
+        },
+        "compile": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Reactive.PlatformServices.dll": {
+            "related": ".XML"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "Firebase.Database/1.0.0": {
+      "sha512": "nEALT430lPZ86itiPiih9ndGG4ZV0sy5GaoVgzZTx5icqpFk/aHjIwMOpUqn7+Me0bDL6WOQnYlsnQcTD1t84g==",
+      "type": "package",
+      "path": "firebase.database/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebase.database.1.0.0.nupkg.sha512",
+        "firebase.database.nuspec",
+        "lib/portable45-net45+win8+wpa81/Firebase.Database.dll"
+      ]
+    },
     "FirebaseAuthentication.net/4.1.0": {
       "sha512": "pShi5v9cvT5bUWZDm261lO4uxJHvzOvpj46YHrL3uCB1WBeyCIcpoVakAQ2xHTu1dpmV86/BzSNRpqIGNp860g==",
       "type": "package",
@@ -32071,6 +34803,141 @@
         "packageIcon.png"
       ]
     },
+    "Rx-Core/2.2.5": {
+      "sha512": "DfWVTfW6tvRkkqpnRHKxPIvaRZyDJGADuqrE6J2nwejOQbLRWi0rNUwXkViDWz++25BGDy3iRE5OE6Dv8mJxYQ==",
+      "type": "package",
+      "path": "rx-core/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Reactive.Core.XML",
+        "lib/net40/System.Reactive.Core.dll",
+        "lib/net45/System.Reactive.Core.XML",
+        "lib/net45/System.Reactive.Core.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Core.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Core.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Core.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Core.dll",
+        "lib/portable-win81+wpa81/System.Reactive.Core.XML",
+        "lib/portable-win81+wpa81/System.Reactive.Core.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Core.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll",
+        "lib/sl5/System.Reactive.Core.XML",
+        "lib/sl5/System.Reactive.Core.dll",
+        "lib/windows8/System.Reactive.Core.XML",
+        "lib/windows8/System.Reactive.Core.dll",
+        "lib/windowsphone71/System.Reactive.Core.XML",
+        "lib/windowsphone71/System.Reactive.Core.dll",
+        "lib/windowsphone8/System.Reactive.Core.XML",
+        "lib/windowsphone8/System.Reactive.Core.dll",
+        "rx-core.2.2.5.nupkg.sha512",
+        "rx-core.nuspec"
+      ]
+    },
+    "Rx-Interfaces/2.2.5": {
+      "sha512": "FKtG2QfMIeUcfB7r3a89VoAiszX3DTvYETkpC6U0FzWpxRK/mcHyzYOsniDfag+NsDG0P1k1c8yNSefXKp3t2A==",
+      "type": "package",
+      "path": "rx-interfaces/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Reactive.Interfaces.XML",
+        "lib/net40/System.Reactive.Interfaces.dll",
+        "lib/net45/System.Reactive.Interfaces.XML",
+        "lib/net45/System.Reactive.Interfaces.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Interfaces.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Interfaces.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Interfaces.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Interfaces.dll",
+        "lib/portable-win81+wpa81/System.Reactive.Interfaces.XML",
+        "lib/portable-win81+wpa81/System.Reactive.Interfaces.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll",
+        "lib/sl5/System.Reactive.Interfaces.XML",
+        "lib/sl5/System.Reactive.Interfaces.dll",
+        "lib/windows8/System.Reactive.Interfaces.XML",
+        "lib/windows8/System.Reactive.Interfaces.dll",
+        "lib/windowsphone71/System.Reactive.Interfaces.XML",
+        "lib/windowsphone71/System.Reactive.Interfaces.dll",
+        "lib/windowsphone8/System.Reactive.Interfaces.XML",
+        "lib/windowsphone8/System.Reactive.Interfaces.dll",
+        "rx-interfaces.2.2.5.nupkg.sha512",
+        "rx-interfaces.nuspec"
+      ]
+    },
+    "Rx-Linq/2.2.5": {
+      "sha512": "UTeCIu3cWPExxmTzdiVq7SalqTBhUaomBTaAC9LpYPoAopjlFwA3hjVWXoLkGlDc/44wqJemJuEwFP00KphiFg==",
+      "type": "package",
+      "path": "rx-linq/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Reactive.Linq.XML",
+        "lib/net40/System.Reactive.Linq.dll",
+        "lib/net45/System.Reactive.Linq.XML",
+        "lib/net45/System.Reactive.Linq.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Linq.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Linq.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Linq.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Linq.dll",
+        "lib/portable-win81+wpa81/System.Reactive.Linq.XML",
+        "lib/portable-win81+wpa81/System.Reactive.Linq.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Linq.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll",
+        "lib/sl5/System.Reactive.Linq.XML",
+        "lib/sl5/System.Reactive.Linq.dll",
+        "lib/windows8/System.Reactive.Linq.XML",
+        "lib/windows8/System.Reactive.Linq.dll",
+        "lib/windowsphone71/System.Reactive.Linq.XML",
+        "lib/windowsphone71/System.Reactive.Linq.dll",
+        "lib/windowsphone8/System.Reactive.Linq.XML",
+        "lib/windowsphone8/System.Reactive.Linq.dll",
+        "rx-linq.2.2.5.nupkg.sha512",
+        "rx-linq.nuspec"
+      ]
+    },
+    "Rx-Main/2.2.5": {
+      "sha512": "qdQ6qENEiLsp/LRdzZlLlodihWN8VDjwNfWa8c2ELjEHZgTdKzt1V4i61gkHVtFKZXe8Px6KupbMP3pZ+1tusQ==",
+      "type": "package",
+      "path": "rx-main/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "rx-main.2.2.5.nupkg.sha512",
+        "rx-main.nuspec"
+      ]
+    },
+    "Rx-PlatformServices/2.2.5": {
+      "sha512": "pMnNEvJVjT+wuDib+W/bi5hhIYcre7dW5yxvKrJxnR4iKJ1VLA/dY2FTtjDriHGx7OeGn12lQewXlH2oHiWFPA==",
+      "type": "package",
+      "path": "rx-platformservices/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Reactive.PlatformServices.XML",
+        "lib/net40/System.Reactive.PlatformServices.dll",
+        "lib/net45/System.Reactive.PlatformServices.XML",
+        "lib/net45/System.Reactive.PlatformServices.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.PlatformServices.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.PlatformServices.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.PlatformServices.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.PlatformServices.dll",
+        "lib/portable-win81+wpa81/System.Reactive.PlatformServices.XML",
+        "lib/portable-win81+wpa81/System.Reactive.PlatformServices.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.PlatformServices.dll",
+        "lib/sl5/System.Reactive.PlatformServices.XML",
+        "lib/sl5/System.Reactive.PlatformServices.dll",
+        "lib/windows8/System.Reactive.PlatformServices.XML",
+        "lib/windows8/System.Reactive.PlatformServices.dll",
+        "lib/windowsphone71/System.Reactive.PlatformServices.XML",
+        "lib/windowsphone71/System.Reactive.PlatformServices.dll",
+        "lib/windowsphone8/System.Reactive.PlatformServices.XML",
+        "lib/windowsphone8/System.Reactive.PlatformServices.dll",
+        "rx-platformservices.2.2.5.nupkg.sha512",
+        "rx-platformservices.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -34111,6 +36978,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "Firebase.Database >= 1.0.0",
       "FirebaseAuthentication.net >= 4.1.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
@@ -34118,6 +36986,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.13"
     ],
     "net8.0-ios18.0": [
+      "Firebase.Database >= 1.0.0",
       "FirebaseAuthentication.net >= 4.1.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
@@ -34125,6 +36994,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.13"
     ],
     "net8.0-maccatalyst18.0": [
+      "Firebase.Database >= 1.0.0",
       "FirebaseAuthentication.net >= 4.1.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
@@ -34132,6 +37002,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.13"
     ],
     "net8.0-windows10.0.19041": [
+      "Firebase.Database >= 1.0.0",
       "FirebaseAuthentication.net >= 4.1.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
@@ -34205,6 +37076,10 @@
       "net8.0-android34.0": {
         "targetAlias": "net8.0-android",
         "dependencies": {
+          "Firebase.Database": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "FirebaseAuthentication.net": {
             "target": "Package",
             "version": "[4.1.0, )"
@@ -34274,6 +37149,10 @@
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
+          "Firebase.Database": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "FirebaseAuthentication.net": {
             "target": "Package",
             "version": "[4.1.0, )"
@@ -34321,6 +37200,10 @@
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
+          "Firebase.Database": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "FirebaseAuthentication.net": {
             "target": "Package",
             "version": "[4.1.0, )"
@@ -34369,6 +37252,10 @@
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
+          "Firebase.Database": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "FirebaseAuthentication.net": {
             "target": "Package",
             "version": "[4.1.0, )"
@@ -34427,7 +37314,7 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm64": {
         "#import": []
       },
       "maccatalyst-x64": {
@@ -34437,5 +37324,57 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Firebase.Database 1.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-ios18.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Firebase.Database",
+      "targetGraphs": [
+        "net8.0-ios18.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Rx-Core 2.2.5\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-ios18.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Rx-Core",
+      "targetGraphs": [
+        "net8.0-ios18.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Rx-Interfaces 2.2.5\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-ios18.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Rx-Interfaces",
+      "targetGraphs": [
+        "net8.0-ios18.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Rx-Linq 2.2.5\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-ios18.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Rx-Linq",
+      "targetGraphs": [
+        "net8.0-ios18.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Rx-PlatformServices 2.2.5\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0-ios18.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Rx-PlatformServices",
+      "targetGraphs": [
+        "net8.0-ios18.0"
+      ]
+    }
+  ]
 }

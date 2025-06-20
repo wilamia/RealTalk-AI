@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealTalk_AI.Settings"
+             BackgroundColor="#FAFAFA"
+             Title="Settings">
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Русский -->
+        <Frame Padding="0" BackgroundColor="White" CornerRadius="20" HasShadow="True" BorderColor="#E5E5E5">
+            <Grid Padding="15" HeightRequest="60">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnRussianTapped"/>
+                </Grid.GestureRecognizers>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Русский"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Start"
+                       TextColor="#333"
+                       FontSize="16"
+                       FontFamily="Nunito-SemiBold" />
+
+                <Image x:Name="RussianCheck"
+                       Source="check.svg"
+                       HeightRequest="20"
+                       IsVisible="False"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                       Margin="10,0" />
+            </Grid>
+        </Frame>
+
+        <!-- English -->
+        <Frame Padding="0" BackgroundColor="White" CornerRadius="20" HasShadow="True" BorderColor="#E5E5E5">
+            <Grid Padding="15" HeightRequest="60">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnEnglishTapped"/>
+                </Grid.GestureRecognizers>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="English"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Start"
+                       TextColor="#333"
+                       FontSize="16"
+                       FontFamily="Nunito-SemiBold" />
+
+                <Image x:Name="EnglishCheck"
+                       Source="check.svg"
+                       HeightRequest="20"
+                       IsVisible="False"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                       Margin="10,0" />
+            </Grid>
+        </Frame>
+
+        <!-- Lietuvių (Lithuanian) -->
+        <Frame Padding="0" BackgroundColor="White" CornerRadius="20" HasShadow="True" BorderColor="#E5E5E5">
+            <Grid Padding="15" HeightRequest="60">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLithuanianTapped"/>
+                </Grid.GestureRecognizers>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Lietuvių"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Start"
+                       TextColor="#333"
+                       FontSize="16"
+                       FontFamily="Nunito-SemiBold" />
+
+                <Image x:Name="LithuanianCheck"
+                       Source="check.svg"
+                       HeightRequest="20"
+                       IsVisible="False"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                       Margin="10,0" />
+            </Grid>
+        </Frame>
+
+        <!-- Español (Spanish) -->
+        <Frame Padding="0" BackgroundColor="White" CornerRadius="20" HasShadow="True" BorderColor="#E5E5E5">
+            <Grid Padding="15" HeightRequest="60">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSpanishTapped"/>
+                </Grid.GestureRecognizers>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Español"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Start"
+                       TextColor="#333"
+                       FontSize="16"
+                       FontFamily="Nunito-SemiBold" />
+
+                <Image x:Name="SpanishCheck"
+                       Source="check.svg"
+                       HeightRequest="20"
+                       IsVisible="False"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                       Margin="10,0" />
+            </Grid>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

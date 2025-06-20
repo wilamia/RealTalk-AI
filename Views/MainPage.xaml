@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealTalk_AI.MainPage"
+             BackgroundColor="#FAFAFA"
+               xmlns:resx="clr-namespace:RealTalk_AI"
+             xmlns:viewmodels="clr-namespace:RealTalk_AI.ViewModels"
+             xmlns:local="clr-namespace:RealTalk_AI">
+
+    <ScrollView>
+        <StackLayout>
+
+            <VerticalStackLayout
+                x:Name="ChatLayout"
+    Padding="20" 
+    Spacing="20"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+
+
+                <Image
+                    Source="robot_image.svg" 
+                    HeightRequest="300"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="Friendly AI robot" 
+                    Margin="0,20,0,0" >
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="FileImageSource">
+                            <On Platform="Android" Value="robot_image.svg" />
+                            <On Platform="iOS" Value="robot_image.svg" />
+                            <On Platform="WinUI" Value="robot_image.png" />
+                            <On Platform="MacCatalyst" Value="robot_image.svg" />
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
+
+                <Label
+                    Text="{Binding Greetings}"
+                    FontSize="28"
+                    TextColor="#305FD5"
+                    FontFamily="Nunito-Bold"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"
+                    SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                    Text="{Binding GreetingsDescription}"
+                    FontSize="18"
+                    TextColor="#1E1E1E"
+                    FontFamily="Nunito-Medium"
+                    HorizontalTextAlignment="Center"/>
+
+                <Frame
+    BackgroundColor="White"
+    CornerRadius="15"
+    BorderColor="Transparent"
+    Padding="10"
+    HorizontalOptions="Center"
+    VerticalOptions="End"
+    HasShadow="True"
+    Margin="0,50,0,30"
+    MinimumWidthRequest="300"
+    MaximumWidthRequest="500">
+
+                    <Frame.Shadow>
+                        <Shadow Brush="Black" Opacity="0.3" Radius="5" />
+                    </Frame.Shadow>
+
+                    <Grid ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <ScrollView HeightRequest="40" VerticalScrollBarVisibility="Never">
+                            <Editor
+        x:Name="InputEntry"
+        Placeholder="{Binding EnterQuestion}"
+        TextColor="Black"
+        BackgroundColor="#FFFFFF"
+        FontFamily="Nunito-Medium"
+        AutoSize="TextChanges"
+        Keyboard="Chat"
+        MaxLength="2000"
+        Margin="0"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="Center"
+        Grid.Column="0"
+        Completed="OnSendMessage"/>
+                        </ScrollView>
+
+                        <ImageButton
+            Source="send_icon.svg"
+            MinimumHeightRequest="25"
+            MinimumWidthRequest="25"
+            MaximumHeightRequest="50"
+            MaximumWidthRequest="50"
+            VerticalOptions="End"
+            Clicked="OnSendMessage"
+            Grid.Column="1">
+                            <ImageButton.Source>
+                                <OnPlatform x:TypeArguments="FileImageSource">
+                                    <On Platform="Android" Value="send_icon.svg" />
+                                    <On Platform="iOS" Value="send_icon.svg" />
+                                    <On Platform="WinUI" Value="send_icon.png" />
+                                    <On Platform="MacCatalyst" Value="send_icon.svg" />
+                                </OnPlatform>
+                            </ImageButton.Source>
+                        </ImageButton>
+                    </Grid>
+                </Frame>
+            </VerticalStackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

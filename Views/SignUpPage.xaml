@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealTalk_AI.SignUpPage"
+             Title="SignUpPage"
+             BackgroundColor="#FAFAFA"
+             xmlns:resx="clr-namespace:RealTalk_AI.Resources"
+             xmlns:viewmodels="clr-namespace:RealTalk_AI.ViewModels">
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="Center"  HorizontalOptions="{OnPlatform 
+                                   Android=Fill, 
+                                   iOS=Fill, 
+                                   WinUI=Center, 
+                                   MacCatalyst=Fill,
+                                   Tizen=Fill, 
+                                   Default=Fill}">
+
+            <Label Text="{Binding CreateAccount}"
+         FontSize="35"
+         FontFamily="Nunito-Bold.ttf"
+         HorizontalOptions="Center"
+         TextColor="#305FD5" 
+         Margin="0,30,0,80"/>
+
+            <VerticalStackLayout Spacing="4" Margin="36,0,36,20">
+                <Label Text="{Binding Email}"
+             FontFamily="Nunito-Medium.ttf"
+             FontSize="18"
+             TextColor="#701E1E1E"
+             Margin="10,0,0,0"/>
+                <Frame CornerRadius="15" Padding="0" BackgroundColor="#40305FD5" BorderColor="Transparent"
+                        WidthRequest="300" Margin="20,0,20,0">
+                    <Grid ColumnDefinitions="Auto, *, Auto">
+                        <Image Source="email.png" 
+                     Grid.Column="0" 
+                     HeightRequest="25" 
+                     HorizontalOptions="Start" 
+                     WidthRequest="25"
+                     VerticalOptions="Center"
+                     Margin="15,0,0,0"/>
+
+                        <Entry x:Name="emailEntry" Placeholder="{Binding EnterEmail}"
+                     FontAutoScalingEnabled ="True"
+                     FontFamily="Nunito-Medium.ttf" 
+                     Grid.Column="1"
+                     PlaceholderColor="#F5F7FC" 
+                     HeightRequest="60"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="Center"
+                     TextColor="Black"/>
+                    </Grid>
+                </Frame>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="4" Margin="36,0,36,20" >
+                <Label Text="{Binding Password}"
+             FontFamily="Nunito-Medium.ttf"
+             FontSize="18"
+             TextColor="#701E1E1E"
+             Margin="10,0,0,0"/>
+
+                <Frame CornerRadius="15" Padding="0" BackgroundColor="#40305FD5" BorderColor="Transparent"
+                        WidthRequest="300" Margin="20,0,20,0">
+                    <Grid ColumnDefinitions="Auto, *, Auto">
+                        <Image Source="formkit_password.png" 
+                             Grid.Column="0" 
+                             HeightRequest="25" 
+                             HorizontalOptions="Start" 
+                             WidthRequest="25"
+                             VerticalOptions="Center"
+                             Margin="15,0,0,0"/>
+
+                        <Entry x:Name="passwordEntry" Placeholder="{Binding EnterPassword}"
+                             FontFamily="Nunito-Medium.ttf"
+                             IsPassword="True"
+                             Grid.Column="1"
+                             PlaceholderColor="#F5F7FC" 
+                             HeightRequest="60"
+                             HorizontalOptions="FillAndExpand" 
+                             VerticalOptions="Center"
+                             TextColor="Black"/>        
+
+                        <Image Source="eye_close.png" 
+                             Grid.Column="2" 
+                             HeightRequest="25"
+                             WidthRequest="27"
+                             VerticalOptions="Center"
+                             HorizontalOptions="End" 
+                             Margin="0,0,10,0">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFirstEyeTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                </Frame>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="4" Margin="36,0,36,20" >
+                <Label Text="{Binding RepeatPassword}"
+                     FontFamily="Nunito-Medium.ttf"
+                     FontSize="18"
+                     TextColor="#701E1E1E"
+                     Margin="10,0,0,0"/>
+
+                <Frame CornerRadius="15" Padding="0" BackgroundColor="#40305FD5" BorderColor="Transparent"
+                        WidthRequest="300" Margin="20,0,20,0">
+                    <Grid ColumnDefinitions="Auto, *, Auto">
+                        <Image Source="formkit_password.png" 
+                         Grid.Column="0" 
+                         HeightRequest="25" 
+                         HorizontalOptions="Start" 
+                         WidthRequest="25"
+                         VerticalOptions="Center"
+                         Margin="15,0,0,0"/>
+
+                        <Entry x:Name="confirmPasswordEntry" Placeholder="{Binding RepeatPassword}"
+                         FontFamily="Nunito-Medium.ttf"
+                         IsPassword="True"
+                         Grid.Column="1"
+                         PlaceholderColor="#F5F7FC" 
+                         HeightRequest="60"
+                         HorizontalOptions="FillAndExpand" 
+                         VerticalOptions="Center"
+                         TextColor="Black"/>
+
+                        <Image Source="eye_close.png" 
+                         Grid.Column="2" 
+                         HeightRequest="25"
+                         WidthRequest="27"
+                         VerticalOptions="Center"
+                         HorizontalOptions="End" 
+                         Margin="0,0,10,0">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnEyeTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                </Frame>
+            </VerticalStackLayout>
+
+            <Button Text="{Binding CreateAccount}"
+          FontFamily="Nunito-Bold.ttf"
+          HeightRequest="60"
+          BackgroundColor="#007AFF"
+          TextColor="White"
+          CornerRadius="15"
+          Margin="36,50,36,20" 
+                    Clicked="OnSignUpClicked"/>
+
+
+            <Label Text="{Binding AlreadyHave}"
+                 HorizontalOptions="Center" 
+                 FontFamily="Nunito-Medium.ttf"
+                 Margin="0,20,0,0"
+             TextColor="#1E1E1E"/>
+            <Button Text="{Binding Login}"
+              BackgroundColor="Transparent"
+              TextColor="#1E1E1E"
+              FontFamily="Nunito-ExtraBold.ttf"
+          HorizontalOptions="Center" 
+                    Clicked="OnSignInClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

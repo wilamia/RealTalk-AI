@@ -1,37 +1,3 @@
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.csproj.AssemblyReference.cache
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.GeneratedMSBuildEditorConfig.editorconfig
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.AssemblyInfoInputs.cache
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.AssemblyInfo.cs
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.csproj.CoreCompileInputs.cache
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\RealTalk AI.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.pdb
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.exe
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.deps.json
@@ -40,6 +6,7 @@ E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk A
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.pdb
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Firebase.Database.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Firebase.Auth.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -75,6 +42,10 @@ E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Reactive.Core.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Reactive.Interfaces.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Reactive.Linq.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Reactive.PlatformServices.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -113,6 +84,25 @@ E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.csproj.AssemblyReference.cache
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Nunito-Black.ttf
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Nunito-BlackItalic.ttf
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Nunito-Bold.ttf
@@ -131,12 +121,70 @@ E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetize
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Nunito-SemiBold.ttf
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Nunito-SemiBoldItalic.ttf
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Nunito-VariableFont_wght.ttf
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_close.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vector.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-100.png
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\formkit_password.scale-100.png
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_logo.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_close.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.AssemblyInfoInputs.cache
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.AssemblyInfo.cs
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.csproj.CoreCompileInputs.cache
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.sourcelink.json
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk.F34F9107.Up2Date
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\RealTalk AI.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.pdb
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.genruntimeconfig.cache
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ref\RealTalk AI.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\priconfig.xml
@@ -155,26 +203,21 @@ E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk_AI.Resources.AppResources.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk_AI.Resources.AppResources.ru.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.csproj.GenerateResource.cache
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ru\RealTalk AI.resources.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-400.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-200.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-150.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-125.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-125.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-150.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-200.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-400.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-125.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-150.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-200.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-400.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-100.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-125.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-150.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-200.png
-E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ru\RealTalk AI.resources.dll

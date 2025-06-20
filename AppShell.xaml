@@ -1,15 +1,281 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="RealTalk_AI.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:RealTalk_AI"
-    Shell.FlyoutBehavior="Disabled"
-    Title="RealTalk_AI">
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:RealTalk_AI" 
+       x:Class="RealTalk_AI.AppShell"
+       xmlns:resx="clr-namespace:RealTalk_AI.Resources"
+       xmlns:views="clr-namespace:RealTalk_AI"
+       xmlns:services="clr-namespace:RealTalk_AI.Services"
+       Shell.FlyoutBehavior="Flyout"
+       BackgroundColor="White"
+       FlyoutBackgroundColor="White"
+       Shell.ForegroundColor="#305FD5">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <Shell.TitleView>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center" HeightRequest="30">
+            <ScrollView
+            x:Name="TitleScrollView"
+            Orientation="Horizontal"
+            HorizontalScrollBarVisibility="Never"
+            VerticalScrollBarVisibility="Never"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Center">
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center" HeightRequest="30">
+                    <Label
+                    x:Name="TitleMain"
+                    Text="{Binding ChatTitle}"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    FontFamily="Nunito-Bold"
+                    TextColor="#305FD5"
+                    VerticalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+                </Grid>
+            </ScrollView>
+        </Grid>
+    </Shell.TitleView>
 
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="White" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <VerticalStackLayout>
+                <Frame
+            BackgroundColor="White"
+            CornerRadius="15"
+            BorderColor="Transparent"
+            Padding="10"
+            Margin="0,10,0,0"
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="Center" 
+            HasShadow="True">
+                    <Frame.Shadow>
+                        <Shadow Brush="Black" Opacity="0.5" Radius="5" />
+                    </Frame.Shadow>
+                    <HorizontalStackLayout
+                Spacing="10"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center">
+                        <ImageButton
+                    x:Name="SendButton"
+                    WidthRequest="25"
+                    HeightRequest="25"
+                    SemanticProperties.Hint="Нажмите, чтобы отправить"
+                    BackgroundColor="Transparent"
+                            Clicked="OnSearchClicked">
+                            <ImageButton.Source>
+                                <OnPlatform x:TypeArguments="FileImageSource">
+                                    <On Platform="Android" Value="search_icon.svg" />
+                                    <On Platform="iOS" Value="search_icon.svg" />
+                                    <On Platform="WinUI" Value="search_icon.png" />
+                                </OnPlatform>
+                            </ImageButton.Source>
+                        </ImageButton>
+                            <Entry
+                    x:Name="InputEntry"
+                    Placeholder="{Binding Search}"
+                                ReturnType="Search"
+                    HorizontalOptions="FillAndExpand"
+                      Unfocused="OnSearchCompleted"
+                    BackgroundColor="#FFFFFF"
+                    FontFamily="Nunito-Medium"
+                    TextColor="Black"
+                    WidthRequest="230"
+                    HeightRequest="40"
+                    Margin="10,0,10,0"
+                    VerticalOptions="Center"
+                                 TextChanged="OnSearchCompleted"
+                                Completed="OnSearchCompleted"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+
+                <Grid ColumnDefinitions="Auto, *">
+                    <Image
+                    Margin="15,20,15,0"
+                    HeightRequest="50" >
+                        <Image.Source>
+                            <OnPlatform x:TypeArguments="FileImageSource">
+                                <On Platform="Android" Value="bot_icon.svg" />
+                                <On Platform="iOS" Value="bot_icon.svg" />
+                                <On Platform="WinUI" Value="bot_icon.png" />
+                            </OnPlatform>
+                        </Image.Source>
+                    </Image>
+                    <Label Grid.Column="1"
+                    Margin="0,20,0,0"
+                    Text="{Binding AppName}"
+                    FontFamily="Nunito-Bold"
+                    TextColor="#5D5D5D"
+                    FontSize="20"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Center" />
+                </Grid>
+
+                <BoxView HeightRequest="1" BackgroundColor="#5D5D5D" HorizontalOptions="Fill" Margin="0,10,0,0"/>
+
+                <Label Margin="15,10,0,0"
+                Text="{Binding LatestChats}"
+                FontFamily="Nunito-Medium"
+                TextColor="#5D5D5D"
+                FontSize="18"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center" />
+
+            </VerticalStackLayout>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutContent>
+        <CollectionView
+    x:Name="ChatTitlesCollectionView"
+    SelectionMode="Single"
+    ItemTemplate="{StaticResource ChatTemplateSelector}" />
+    </Shell.FlyoutContent>
+    <Shell.Resources>
+        <ResourceDictionary>
+
+            <!-- Обычный шаблон (строка) -->
+            <DataTemplate x:Key="StringChatTemplate">
+                <Frame Padding="10" Margin="15,5,15,5" BackgroundColor="White" HorizontalOptions="FillAndExpand" HasShadow="False" CornerRadius="10"
+                   VerticalOptions="Center" BorderColor="#5D5D5D">
+                    <StackLayout>
+                        <Label Text="{Binding .}"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#305FD5"
+                           FontFamily="Nunito-Bold"
+                           LineBreakMode="TailTruncation"
+                           MaxLines="1" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnChatSelected"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+            </DataTemplate>
+
+            <!-- Шаблон поиска -->
+            <DataTemplate x:Key="SearchChatTemplate">
+                <Frame Padding="10" Margin="15,5,15,5" BackgroundColor="White" HorizontalOptions="FillAndExpand" HasShadow="False" CornerRadius="10"
+                   VerticalOptions="Center" BorderColor="#5D5D5D">
+                    <StackLayout>
+                        <Label Text="{Binding Title}"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#305FD5"
+                           FontFamily="Nunito-Bold"
+                           LineBreakMode="TailTruncation"
+                           MaxLines="1" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnChatSelected"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label Text="{Binding Snippet}"
+                           FontSize="14"
+                           TextColor="#5D5D5D"
+                           FontFamily="Nunito-Regular"
+                           TextType="Html" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnChatSelected"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+            </DataTemplate>
+
+            <!-- Сам TemplateSelector -->
+            <services:ChatItemTemplateSelector x:Key="ChatTemplateSelector"
+                                           StringTemplate="{StaticResource StringChatTemplate}"
+                                           SearchResultTemplate="{StaticResource SearchChatTemplate}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+
+    <FlyoutItem Route="MainPage">
+        <ShellContent>
+            <views:MainPage />
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Route="ChatPage">
+        <ShellContent>
+            <views:ChatPage />
+        </ShellContent>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="#5D5D5D" HorizontalOptions="Fill" Margin="15,10,15,0"/>
+            <StackLayout >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapped" />
+                </StackLayout.GestureRecognizers>
+                <Grid Padding="10" Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image WidthRequest="40" HeightRequest="40" VerticalOptions="Center">
+                        <Image.Source>
+                            <OnPlatform x:TypeArguments="FileImageSource">
+                                <On Platform="Android" Value="home.svg" />
+                                <On Platform="iOS" Value="home.svg" />
+                                <On Platform="WinUI" Value="home.png" />
+                            </OnPlatform>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="{Binding Home}" Grid.Column="1" VerticalOptions="Center" TextColor="#5D5D5D" FontFamily="Nunito-Bold" Margin="15,0,0,0" FontSize="18"></Label>
+                </Grid>
+            </StackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="#5D5D5D" HorizontalOptions="Fill" Margin="15,0,15,0"/>
+            <StackLayout>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTappedSettings" />
+                </StackLayout.GestureRecognizers>
+                <Grid Padding="10" Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image WidthRequest="40" HeightRequest="40" VerticalOptions="Center">
+                        <Image.Source>
+                            <OnPlatform x:TypeArguments="FileImageSource">
+                                <On Platform="Android" Value="settings_icon.svg" />
+                                <On Platform="iOS" Value="settings_icon.svg" />
+                                <On Platform="WinUI" Value="settings_icon.png" />
+                            </OnPlatform>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="{Binding Settings}" Grid.Column="1" VerticalOptions="Center" TextColor="#5D5D5D" FontFamily="Nunito-Bold" Margin="15,0,0,0" FontSize="18"/>
+                </Grid>
+            </StackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="#5D5D5D" HorizontalOptions="Fill" Margin="15,0,15,0"/>
+            <Grid Padding="10" Margin="10,0,10,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Frame BackgroundColor="#D88C8C" WidthRequest="40" HeightRequest="40" CornerRadius="20" VerticalOptions="Center" BorderColor="Transparent"/>
+                <Label x:Name="Username" Text="{Binding Username}" Grid.Column="1" VerticalOptions="Center" TextColor="#5D5D5D" FontFamily="Nunito-Medium" Margin="15,0,0,0" FontSize="18"/>
+                <ImageButton Grid.Column="2" WidthRequest="40" HeightRequest="40" BackgroundColor="Transparent" Clicked="Logout">
+                    <ImageButton.Source>
+                        <OnPlatform x:TypeArguments="FileImageSource">
+                            <On Platform="Android" Value="logout_icon.svg" />
+                            <On Platform="iOS" Value="logout_icon.svg" />
+                            <On Platform="WinUI" Value="logout_icon.png" />
+                        </OnPlatform>
+                    </ImageButton.Source>
+                </ImageButton>
+            </Grid>
+        </StackLayout>
+    </Shell.FlyoutFooter>
 </Shell>
