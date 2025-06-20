@@ -19,7 +19,7 @@ namespace RealTalk_AI;
 
             var config = new FirebaseAuthConfig
             {
-                ApiKey = "AIzaSyCdTJg_iSeWoX2Ete3-8emKdqBVnY71AIA",
+                ApiKey = "",
                 AuthDomain = "realtalk-ai.firebaseapp.com",
                 Providers = new FirebaseAuthProvider[]
                 {
@@ -38,7 +38,7 @@ namespace RealTalk_AI;
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
-                await DisplayAlert("Ошибка", "Введите почту и пароль!", "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!", "OK");
                 return;
             }
 
@@ -47,13 +47,13 @@ namespace RealTalk_AI;
                 var authResult = await authClient.SignInWithEmailAndPasswordAsync(email, password);
                 var user = authResult.User;
 
-                await DisplayAlert("Успех", $"Добро пожаловать, {user.Info.Email}", "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅ", $"пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, {user.Info.Email}", "OK");
 
                 await Navigation.PushAsync(new MainPage());
             }
             catch (FirebaseAuthException ex)
             {
-                await DisplayAlert("Ошибка входа", ex.Reason.ToString(), "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ", ex.Reason.ToString(), "OK");
             }
         }
     private void OnEyeTapped(object sender, EventArgs e)

@@ -13,7 +13,7 @@ public partial class SignUpPage : ContentPage
         NavigationPage.SetHasNavigationBar(this, false);
         _authClient = new FirebaseAuthClient(new FirebaseAuthConfig
         {
-            ApiKey = "AIzaSyCdTJg_iSeWoX2Ete3-8emKdqBVnY71AIA",
+            ApiKey = "",
             AuthDomain = "realtalk-ai.firebaseapp.com",
             Providers = new FirebaseAuthProvider[]
             {
