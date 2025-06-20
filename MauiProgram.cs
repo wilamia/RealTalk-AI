@@ -15,7 +15,7 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-        const string firebaseApiKey = "AIzaSyCdTJg_iSeWoX2Ete3-8emKdqBVnY71AIA";
+        const string firebaseApiKey = "";
         var config = new FirebaseAuthConfig
         {
             ApiKey = firebaseApiKey,

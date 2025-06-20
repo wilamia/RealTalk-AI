@@ -24,7 +24,7 @@ namespace RealTalk_AI
 
             var config = new FirebaseAuthConfig
             {
-                ApiKey = "AIzaSyCdTJg_iSeWoX2Ete3-8emKdqBVnY71AIA",
+                ApiKey = "",
                 AuthDomain = "realtalk-ai.firebaseapp.com",
                 Providers = new FirebaseAuthProvider[] { new EmailProvider() },
                 UserRepository = new FileUserRepository("RealTalk_AI")
@@ -40,7 +40,7 @@ namespace RealTalk_AI
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
-                await DisplayAlert("Ошибка", "Введите почту и пароль!", "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!", "OK");
                 return;
             }
 
@@ -58,13 +58,13 @@ namespace RealTalk_AI
 
                 await FetchAndSaveUserInfo(user.Info.Email);
 
-                await DisplayAlert("Успех", $"Добро пожаловать, {user.Info.Email}", "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅ", $"пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, {user.Info.Email}", "OK");
 
                 Application.Current.MainPage = new NavigationPage(new AppShell());
             }
             catch (FirebaseAuthException ex)
             {
-                await DisplayAlert("Ошибка входа", ex.Reason.ToString(), "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ", ex.Reason.ToString(), "OK");
             }
         }
 
@@ -85,7 +85,7 @@ namespace RealTalk_AI
 
                     if (string.IsNullOrWhiteSpace(json) || json == "null")
                     {
-                        await DisplayAlert("Ошибка", "Информация о пользователе не найдена.", "OK");
+                        await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.", "OK");
                         return;
                     }
 
@@ -93,13 +93,13 @@ namespace RealTalk_AI
 
                     if (userInfo == null)
                     {
-                        await DisplayAlert("Ошибка", "Не удалось десериализовать информацию о пользователе.", "OK");
+                        await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.", "OK");
                         return;
                     }
 
                     if (string.IsNullOrEmpty(userInfo.Username))
                     {
-                        await DisplayAlert("Ошибка", "Имя пользователя отсутствует в данных.", "OK");
+                        await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.", "OK");
                         return;
                     }
 
@@ -108,16 +108,16 @@ namespace RealTalk_AI
                 }
                 else
                 {
-                    await DisplayAlert("Ошибка", "Не удалось загрузить данные из Firebase.", "OK");
+                    await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ Firebase.", "OK");
                 }
             }
             catch (FirebaseException firebaseEx)
             {
-                await DisplayAlert("Ошибка", $"Ошибка загрузки данных из Firebase: {firebaseEx.Message}", "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", $"пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ Firebase: {firebaseEx.Message}", "OK");
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Ошибка", $"Ошибка загрузки данных: {ex.Message}", "OK");
+                await DisplayAlert("пїЅпїЅпїЅпїЅпїЅпїЅ", $"пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: {ex.Message}", "OK");
             }
         }
 
