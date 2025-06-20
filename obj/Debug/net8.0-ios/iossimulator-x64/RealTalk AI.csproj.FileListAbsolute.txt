@@ -367,7 +367,19 @@ E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\refint\RealTalk AI.
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\RealTalk AI.pdb
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\RealTalk AI.genruntimeconfig.cache
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\ref\RealTalk AI.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\home@3x.png
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\home@2x.png
 E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\home.png
+E:\project\RealTalk AI\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\check@3x.png
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\check@2x.png
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\RealTalk_AI.Resources.AppResources.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\RealTalk_AI.Resources.AppResources.ru.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\RealTalk AI.csproj.GenerateResource.cache
+E:\project\RealTalk AI\bin\Debug\net8.0-ios\iossimulator-x64\ru\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\ru\RealTalk AI.resources.cs
+E:\project\RealTalk AI\obj\Debug\net8.0-ios\iossimulator-x64\ru\RealTalk AI.resources.dll

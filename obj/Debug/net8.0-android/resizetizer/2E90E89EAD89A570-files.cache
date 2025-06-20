@@ -5,6 +5,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\google_logo.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\menu.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\vector.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bot_icon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\check.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\eye_open.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\logout_icon.png
@@ -15,6 +16,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\send_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\settings_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\stop_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bot_icon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\check.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\eye_open.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\logout_icon.png
@@ -25,6 +27,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\send_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\settings_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\stop_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bot_icon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\check.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\eye_open.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\logout_icon.png
@@ -35,6 +38,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\send_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\settings_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\stop_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bot_icon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\check.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\eye_open.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\logout_icon.png
@@ -45,6 +49,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\send_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\settings_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\stop_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bot_icon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\check.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\eye_open.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\logout_icon.png

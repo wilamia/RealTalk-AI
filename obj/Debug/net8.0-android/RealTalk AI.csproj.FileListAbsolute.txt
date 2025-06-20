@@ -589,7 +589,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\zh-Hans\Microsoft
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\AndroidManifest.xml
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\AndroidManifest.xml
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -599,7 +598,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\mono.android.jar
 E:\project\RealTalk AI\obj\Debug\net8.0-android\static.flag
 E:\project\RealTalk AI\obj\Debug\net8.0-android\__environment__.txt
 E:\project\RealTalk AI\obj\Debug\net8.0-android\buildid.txt
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1098,13 +1096,6 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\mono\MonoPackageMana
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\packaged_resources
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\src\com\companyname\realtalkai\R.java
 E:\project\RealTalk AI\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
-E:\project\RealTalk AI\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\classes.dex
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\bin\classes2.dex
 E:\project\RealTalk AI\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1127,3 +1118,28 @@ E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk.F34F9107.Up2Date
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.HotReload.Forms.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 E:\project\RealTalk AI\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.TapContract.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\ru\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk AI.csproj.GenerateResource.cache
+E:\project\RealTalk AI\obj\Debug\net8.0-android\ru\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\check.png
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.ru.resources
+E:\project\RealTalk AI\bin\Debug\net8.0-android\lt\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.lt.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-android\lt\RealTalk AI.resources.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-android\es\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\RealTalk_AI.Resources.AppResources.es.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-android\es\RealTalk AI.resources.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
+E:\project\RealTalk AI\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

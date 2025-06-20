@@ -1,7 +1,6 @@
 ﻿using Firebase.Auth.Providers;
 using Firebase.Auth;
 using Microsoft.Extensions.Logging;
-
 namespace RealTalk_AI;
 
 public static class MauiProgram

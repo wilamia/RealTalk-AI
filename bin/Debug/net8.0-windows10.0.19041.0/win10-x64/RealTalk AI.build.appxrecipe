@@ -115,176 +115,194 @@
     <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-100.png">
-      <PackagePath>bot_icon.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-125.png">
-      <PackagePath>bot_icon.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-150.png">
-      <PackagePath>bot_icon.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-200.png">
-      <PackagePath>bot_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
+      <PackagePath>menu.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-400.png">
       <PackagePath>bot_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
-      <PackagePath>email.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-200.png">
+      <PackagePath>bot_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_close.scale-100.png">
-      <PackagePath>eye_close.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-150.png">
+      <PackagePath>bot_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-100.png">
-      <PackagePath>eye_open.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-125.png">
+      <PackagePath>bot_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-125.png">
-      <PackagePath>eye_open.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-150.png">
-      <PackagePath>eye_open.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-200.png">
-      <PackagePath>eye_open.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-400.png">
-      <PackagePath>eye_open.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\formkit_password.scale-100.png">
-      <PackagePath>formkit_password.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_logo.scale-100.png">
-      <PackagePath>google_logo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
-      <PackagePath>home.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
-      <PackagePath>home.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
-      <PackagePath>home.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
-      <PackagePath>home.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
-      <PackagePath>home.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-100.png">
-      <PackagePath>logout_icon.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-125.png">
-      <PackagePath>logout_icon.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-150.png">
-      <PackagePath>logout_icon.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-200.png">
-      <PackagePath>logout_icon.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-400.png">
-      <PackagePath>logout_icon.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
-      <PackagePath>menu.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-100.png">
-      <PackagePath>menu_icon.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-125.png">
-      <PackagePath>menu_icon.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-150.png">
-      <PackagePath>menu_icon.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-200.png">
-      <PackagePath>menu_icon.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-400.png">
-      <PackagePath>menu_icon.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-100.png">
-      <PackagePath>robot_image.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-125.png">
-      <PackagePath>robot_image.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-150.png">
-      <PackagePath>robot_image.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-200.png">
-      <PackagePath>robot_image.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-400.png">
-      <PackagePath>robot_image.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png">
-      <PackagePath>search_icon.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-125.png">
-      <PackagePath>search_icon.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-150.png">
-      <PackagePath>search_icon.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-200.png">
-      <PackagePath>search_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot_icon.scale-100.png">
+      <PackagePath>bot_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-400.png">
       <PackagePath>search_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-100.png">
-      <PackagePath>send_icon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-200.png">
+      <PackagePath>search_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-125.png">
-      <PackagePath>send_icon.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-150.png">
+      <PackagePath>search_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-150.png">
-      <PackagePath>send_icon.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-125.png">
+      <PackagePath>search_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-200.png">
-      <PackagePath>send_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png">
+      <PackagePath>search_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-400.png">
-      <PackagePath>send_icon.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_close.scale-100.png">
+      <PackagePath>eye_close.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-100.png">
-      <PackagePath>settings_icon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-400.png">
+      <PackagePath>check.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-125.png">
-      <PackagePath>settings_icon.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-200.png">
+      <PackagePath>check.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-150.png">
-      <PackagePath>settings_icon.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-150.png">
+      <PackagePath>check.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-200.png">
-      <PackagePath>settings_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-125.png">
+      <PackagePath>check.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-400.png">
-      <PackagePath>settings_icon.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-100.png">
+      <PackagePath>check.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-100.png">
-      <PackagePath>stop_icon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_logo.scale-100.png">
+      <PackagePath>google_logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-125.png">
-      <PackagePath>stop_icon.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
+      <PackagePath>email.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-150.png">
-      <PackagePath>stop_icon.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-200.png">
-      <PackagePath>stop_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\formkit_password.scale-100.png">
+      <PackagePath>formkit_password.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-400.png">
       <PackagePath>stop_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-200.png">
+      <PackagePath>stop_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-150.png">
+      <PackagePath>stop_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-125.png">
+      <PackagePath>stop_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop_icon.scale-100.png">
+      <PackagePath>stop_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-400.png">
+      <PackagePath>menu_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-200.png">
+      <PackagePath>menu_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-150.png">
+      <PackagePath>menu_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-125.png">
+      <PackagePath>menu_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_icon.scale-100.png">
+      <PackagePath>menu_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-400.png">
+      <PackagePath>send_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-200.png">
+      <PackagePath>send_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-150.png">
+      <PackagePath>send_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-125.png">
+      <PackagePath>send_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send_icon.scale-100.png">
+      <PackagePath>send_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-400.png">
+      <PackagePath>logout_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-200.png">
+      <PackagePath>logout_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-150.png">
+      <PackagePath>logout_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-125.png">
+      <PackagePath>logout_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-100.png">
+      <PackagePath>logout_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vector.scale-100.png">
       <PackagePath>vector.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-400.png">
+      <PackagePath>eye_open.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-200.png">
+      <PackagePath>eye_open.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-150.png">
+      <PackagePath>eye_open.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-125.png">
+      <PackagePath>eye_open.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eye_open.scale-100.png">
+      <PackagePath>eye_open.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-400.png">
+      <PackagePath>settings_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-200.png">
+      <PackagePath>settings_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-150.png">
+      <PackagePath>settings_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-125.png">
+      <PackagePath>settings_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_icon.scale-100.png">
+      <PackagePath>settings_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
+      <PackagePath>home.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
+      <PackagePath>home.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
+      <PackagePath>home.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
+      <PackagePath>home.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-400.png">
+      <PackagePath>robot_image.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-200.png">
+      <PackagePath>robot_image.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-150.png">
+      <PackagePath>robot_image.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-125.png">
+      <PackagePath>robot_image.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\robot_image.scale-100.png">
+      <PackagePath>robot_image.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.deps.json">
       <PackagePath>RealTalk AI.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ru\RealTalk AI.resources.dll">
+      <PackagePath>ru\RealTalk AI.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\eseni\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -519,6 +537,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\eseni\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\other\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.Maui.Controls.HotReload.Forms.dll">
+      <PackagePath>Microsoft.Maui.Controls.HotReload.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\other\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\other\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.TapContract.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.TapContract.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\eseni\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

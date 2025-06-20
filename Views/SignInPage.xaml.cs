@@ -18,6 +18,7 @@ namespace RealTalk_AI
         public SignInPage()
         {
             InitializeComponent();
+            BindingContext = new ViewModels.SignInViewModel();
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
 
@@ -67,7 +68,7 @@ namespace RealTalk_AI
             }
         }
 
-      
+
         private async Task FetchAndSaveUserInfo(string email)
         {
             try
@@ -80,12 +81,34 @@ namespace RealTalk_AI
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Fetched user JSON: {json}");
+
+                    if (string.IsNullOrWhiteSpace(json) || json == "null")
+                    {
+                        await DisplayAlert("Ошибка", "Информация о пользователе не найдена.", "OK");
+                        return;
+                    }
+
                     var userInfo = JsonSerializer.Deserialize<UserInfo>(json);
-                    // Сохраняем
+
+                    if (userInfo == null)
+                    {
+                        await DisplayAlert("Ошибка", "Не удалось десериализовать информацию о пользователе.", "OK");
+                        return;
+                    }
+
+                    if (string.IsNullOrEmpty(userInfo.Username))
+                    {
+                        await DisplayAlert("Ошибка", "Имя пользователя отсутствует в данных.", "OK");
+                        return;
+                    }
+
+                    AuthService.SetUsername(userInfo.Username);
+                    Console.WriteLine($"User's username is: {userInfo.Username}");
                 }
                 else
                 {
-                    await DisplayAlert("Ошибка", "Не удалось загрузить данные из Firebase", "OK");
+                    await DisplayAlert("Ошибка", "Не удалось загрузить данные из Firebase.", "OK");
                 }
             }
             catch (FirebaseException firebaseEx)
@@ -97,6 +120,7 @@ namespace RealTalk_AI
                 await DisplayAlert("Ошибка", $"Ошибка загрузки данных: {ex.Message}", "OK");
             }
         }
+
 
         private void OnEyeTapped(object sender, EventArgs e)
         {
@@ -127,6 +151,6 @@ namespace RealTalk_AI
     public class UserInfo
     {
         public string Id { get; set; }
-        public string Username { get; set; } 
+        public string Username { get; set; }
     }
 }

@@ -17,6 +17,7 @@ namespace RealTalk_AI
         public SignUpPage()
         {
             InitializeComponent();
+            BindingContext = new ViewModels.SignUpViewModel();
             NavigationPage.SetHasNavigationBar(this, false);
 
             _authClient = new FirebaseAuthClient(new FirebaseAuthConfig

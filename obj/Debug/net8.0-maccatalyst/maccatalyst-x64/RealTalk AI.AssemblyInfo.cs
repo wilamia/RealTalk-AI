@@ -14,10 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RealTalk AI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5f08991f5b78da9de95043bf46fb720bf1fbd397")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bd233e647e4c9e99aa0d70d1a2c0e9b62b006c60")]
 [assembly: System.Reflection.AssemblyProductAttribute("RealTalk AI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RealTalk AI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("en-001")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 

@@ -1,10 +1,9 @@
-﻿
-public static class AuthService
+﻿public static class AuthService
 {
     private const string TokenKey = "AuthToken";
     private const string EmailKey = "UserEmail";
-    private const string UserIdKey = "UserId"; 
-    private const string NicknameKey = "UserNickname"; 
+    private const string UserIdKey = "UserId";
+    private const string NicknameKey = "UserNickname";
 
     public static string GetAuthToken()
     {
@@ -54,7 +53,7 @@ public static class AuthService
         Preferences.Set(NicknameKey, nickname);
     }
 
-    public static string GetNickname()
+    public static string GetUsername()
     {
         return Preferences.Get(NicknameKey, string.Empty);
     }

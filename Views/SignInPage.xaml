@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:RealTalk_AI"
              x:Class="RealTalk_AI.SignInPage"
-              BackgroundColor="#F7F7F7">
+             BackgroundColor="#FAFAFA"
+             xmlns:resx="clr-namespace:RealTalk_AI.Resources"
+             xmlns:viewmodels="clr-namespace:RealTalk_AI.ViewModels">
 
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center"  HorizontalOptions="{OnPlatform 
@@ -14,7 +16,7 @@
                                          Tizen=Fill, 
                                          Default=Fill}">
 
-            <Label Text="Войти в аккаунт"
+            <Label Text="{Binding LoginTo}"
                FontSize="35"
                FontFamily="Nunito-Bold.ttf"
                HorizontalOptions="Center"
@@ -22,7 +24,7 @@
                Margin="0,0,0,80"/>
 
             <VerticalStackLayout Spacing="4" Margin="36,0,36,20">
-                <Label Text="Почта"
+                <Label Text="{Binding Email}"
                    FontFamily="Nunito-Medium.ttf"
                    FontSize="18"
                    TextColor="#701E1E1E"
@@ -36,7 +38,7 @@
                WidthRequest="25"
                VerticalOptions="Center"
                Margin="15,0,0,0"/>
-                        <Entry Placeholder="Введите почту"
+                        <Entry Placeholder="{Binding EnterEmail}"
                x:Name="emailEntry"
                FontFamily="Nunito-Medium.ttf" 
                Grid.Column="1"
@@ -51,7 +53,7 @@
             </VerticalStackLayout>
 
             <VerticalStackLayout Spacing="4" Margin="36,0,36,20" >
-                <Label Text="Пароль"
+                <Label Text="{Binding Password}"
                    FontFamily="Nunito-Medium.ttf"
                    FontSize="18"
                    TextColor="#701E1E1E"
@@ -67,7 +69,7 @@
                    VerticalOptions="Center"
                    Margin="15,0,0,0"/>
 
-                        <Entry Placeholder="Введите пароль"
+                        <Entry Placeholder="{Binding EnterPassword}"
                    x:Name="passwordEntry"
                    FontFamily="Nunito-Medium.ttf"
                    IsPassword="True"
@@ -93,7 +95,7 @@
                 </Frame>
             </VerticalStackLayout>
 
-            <Button Text="Забыли пароль?"
+            <Button Text="{Binding ForgotPassword}"
                HorizontalOptions="Center"
                    FontFamily="Nunito-Medium.ttf"
                TextColor="#1E1E1E"
@@ -101,7 +103,7 @@
                     Clicked="OnForgotPasswordTapped">
             </Button>
 
-            <Button Text="Войти"
+            <Button Text="{Binding Login}"
                 FontFamily="Nunito-Bold.ttf"
                 HeightRequest="60"
                 BackgroundColor="#007AFF"
@@ -109,12 +111,12 @@
                 CornerRadius="15"
                 Margin="36,50,36,20" 
                     Clicked="OnSignInClicked"/>
-            <Label Text="Нет аккаунта?"
+            <Label Text="{Binding NoAccount}"
                HorizontalOptions="Center" 
                    FontFamily="Nunito-Medium.ttf"
                    Margin="0,20,0,0"
                    TextColor="#1E1E1E"/>
-            <Button Text="Создать аккаунт"
+            <Button Text="{Binding CreateAccount}"
                 BackgroundColor="Transparent"
                 TextColor="#1E1E1E"
                 FontFamily="Nunito-ExtraBold.ttf"

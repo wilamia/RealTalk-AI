@@ -208,3 +208,16 @@ E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetize
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png
 E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-400.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-200.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-150.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-125.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-100.png
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk_AI.Resources.AppResources.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk_AI.Resources.AppResources.ru.resources
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RealTalk AI.csproj.GenerateResource.cache
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ru\RealTalk AI.resources.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+E:\project\RealTalk AI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+E:\project\RealTalk AI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ru\RealTalk AI.resources.dll

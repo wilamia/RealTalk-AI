@@ -4,5 +4,161 @@
         <name>RealTalk AI</name>
     </assembly>
     <members>
+        <member name="T:RealTalk_AI.Resources.AppResources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.AlreadyHave">
+            <summary>
+              Ищет локализованную строку, похожую на Already have an account?.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.AppName">
+            <summary>
+              Ищет локализованную строку, похожую на RealTalk AI.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.ChatTopic">
+            <summary>
+              Ищет локализованную строку, похожую на Сhat on the topic:.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.CreateAccount">
+            <summary>
+              Ищет локализованную строку, похожую на Create an account.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Email">
+            <summary>
+              Ищет локализованную строку, похожую на Email.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.EnterEmail">
+            <summary>
+              Ищет локализованную строку, похожую на Enter your email.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.EnterPassword">
+            <summary>
+              Ищет локализованную строку, похожую на Enter your password.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.EnterQuestion">
+            <summary>
+              Ищет локализованную строку, похожую на Enter your question....
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.ForgotPassword">
+            <summary>
+              Ищет локализованную строку, похожую на Forgot your password?.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Greetings">
+            <summary>
+              Ищет локализованную строку, похожую на Hi, I&apos;m ready to help you!.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.GreetingsDescription">
+            <summary>
+              Ищет локализованную строку, похожую на Ask me anything. I&apos;m here to help you!.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Home">
+            <summary>
+              Ищет локализованную строку, похожую на Home.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Lama">
+            <summary>
+              Ищет локализованную строку, похожую на Lama.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.LatestChats">
+            <summary>
+              Ищет локализованную строку, похожую на Latest chats.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Login">
+            <summary>
+              Ищет локализованную строку, похожую на Login.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.LoginTo">
+            <summary>
+              Ищет локализованную строку, похожую на Login to account.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.NoAccount">
+            <summary>
+              Ищет локализованную строку, похожую на Don&apos;t have an account?.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Password">
+            <summary>
+              Ищет локализованную строку, похожую на Password.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.RecoverPassword">
+            <summary>
+              Ищет локализованную строку, похожую на Recover password.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.RepeatPassword">
+            <summary>
+              Ищет локализованную строку, похожую на Repeat your password.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Search">
+            <summary>
+              Ищет локализованную строку, похожую на Search in chats history.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Settings">
+            <summary>
+              Ищет локализованную строку, похожую на Settings.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Thinking1">
+            <summary>
+              Ищет локализованную строку, похожую на Lama is thinking..
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Thinking2">
+            <summary>
+              Ищет локализованную строку, похожую на Lama is thinking...
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Thinking3">
+            <summary>
+              Ищет локализованную строку, похожую на Lama is thinking....
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.ThinkingALot">
+            <summary>
+              Ищет локализованную строку, похожую на Lama is lost in thought....
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.Topic">
+            <summary>
+              Ищет локализованную строку, похожую на Topic:.
+            </summary>
+        </member>
+        <member name="P:RealTalk_AI.Resources.AppResources.You">
+            <summary>
+              Ищет локализованную строку, похожую на You.
+            </summary>
+        </member>
     </members>
 </doc>

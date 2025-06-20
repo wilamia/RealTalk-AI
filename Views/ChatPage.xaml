@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="RealTalk_AI.ChatPage"
+             BackgroundColor="#FAFAFA"
+             xmlns:resx="clr-namespace:RealTalk_AI.Resources"
+             xmlns:viewmodels="clr-namespace:RealTalk_AI.ViewModels">
+
+    <StackLayout Padding="0">
+
+        <ScrollView x:Name="ChatScrollView" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="ChatLayout" Spacing="5">
+
+            </StackLayout>
+        </ScrollView>
+
+
+        <Frame
+    BackgroundColor="White"
+    CornerRadius="15"
+    BorderColor="Transparent"
+    Padding="10"
+    HorizontalOptions="FillAndExpand" 
+    VerticalOptions="End"
+    HasShadow="True"
+    Margin="20,10,20,30">
+
+            <Frame.Shadow>
+                <Shadow Brush="Black" Opacity="0.3" Radius="5" />
+            </Frame.Shadow>
+
+            <Grid ColumnSpacing="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                                      <ScrollView HeightRequest="40" VerticalScrollBarVisibility="Never">
+                          <Editor
+      x:Name="InputEntry"
+      Placeholder="{Binding EnterQuestion}"
+      TextColor="Black"
+      BackgroundColor="#FFFFFF"
+      FontFamily="Nunito-Medium"
+      AutoSize="TextChanges"
+      Keyboard="Chat"
+      MaxLength="2000"
+      Margin="0"
+      HorizontalOptions="FillAndExpand"
+      VerticalOptions="Center"
+      Grid.Column="0" 
+      Completed="OnSendMessage"/>
+                      </ScrollView>
+
+
+                <ImageButton
+            x:Name="SendButton"
+            Source="send_icon.svg"
+            MinimumHeightRequest="25"
+            MinimumWidthRequest="25"
+            MaximumHeightRequest="50"
+            MaximumWidthRequest="50"
+            BackgroundColor="Transparent"
+            Clicked="OnSendOrStopMessage"
+            VerticalOptions="Center"
+            Grid.Column="1" />
+            </Grid>
+        </Frame>
+
+    </StackLayout>
+</ContentPage>

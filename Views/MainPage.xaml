@@ -2,7 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RealTalk_AI.MainPage"
-             BackgroundColor="#EFEFEF">
+             BackgroundColor="#FAFAFA"
+               xmlns:resx="clr-namespace:RealTalk_AI"
+             xmlns:viewmodels="clr-namespace:RealTalk_AI.ViewModels"
+             xmlns:local="clr-namespace:RealTalk_AI">
 
     <ScrollView>
         <StackLayout>
@@ -32,7 +35,7 @@
                 </Image>
 
                 <Label
-                    Text="Привет, Я готов помогать тебе!"
+                    Text="{Binding Greetings}"
                     FontSize="28"
                     TextColor="#305FD5"
                     FontFamily="Nunito-Bold"
@@ -41,52 +44,60 @@
                     SemanticProperties.HeadingLevel="Level1" />
 
                 <Label
-                    Text="Спроси меня о чём-нибудь. Я здесь, чтобы помочь тебе!"
+                    Text="{Binding GreetingsDescription}"
                     FontSize="18"
                     TextColor="#1E1E1E"
                     FontFamily="Nunito-Medium"
-                    HorizontalTextAlignment="Center"
-                    SemanticProperties.HeadingLevel="Level2"
-                    SemanticProperties.Description="Ask me anything. I'm here to help!" />
+                    HorizontalTextAlignment="Center"/>
 
                 <Frame
-                    BackgroundColor="White"
-                    CornerRadius="15"
-                    BorderColor="Transparent"
-                    Padding="10"
-                    HorizontalOptions="Center"
-                    VerticalOptions="End"
-                    HasShadow="True"
-                    Margin="0,50,0,30" 
-                    MinimumWidthRequest="300"
-                     MaximumWidthRequest="500">
+    BackgroundColor="White"
+    CornerRadius="15"
+    BorderColor="Transparent"
+    Padding="10"
+    HorizontalOptions="Center"
+    VerticalOptions="End"
+    HasShadow="True"
+    Margin="0,50,0,30"
+    MinimumWidthRequest="300"
+    MaximumWidthRequest="500">
+
                     <Frame.Shadow>
                         <Shadow Brush="Black" Opacity="0.3" Radius="5" />
                     </Frame.Shadow>
 
-                    <HorizontalStackLayout
-                        Spacing="10"
-                        HorizontalOptions="FillAndExpand"
-                        VerticalOptions="End">
+                    <Grid ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
 
-                        <Entry
-                            x:Name="InputEntry"
-                            Placeholder="Введите ваш вопрос..."
-                            HorizontalOptions="FillAndExpand"
-                            BackgroundColor="#FFFFFF"
-                              FontFamily="Nunito-Medium"
-                            TextColor="Black"
-                            MinimumWidthRequest="270"
-                           
-                            Margin="0,0,10,0"/>
+                        <ScrollView HeightRequest="40" VerticalScrollBarVisibility="Never">
+                            <Editor
+        x:Name="InputEntry"
+        Placeholder="{Binding EnterQuestion}"
+        TextColor="Black"
+        BackgroundColor="#FFFFFF"
+        FontFamily="Nunito-Medium"
+        AutoSize="TextChanges"
+        Keyboard="Chat"
+        MaxLength="2000"
+        Margin="0"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="Center"
+        Grid.Column="0"
+        Completed="OnSendMessage"/>
+                        </ScrollView>
 
                         <ImageButton
-                            Source="send_icon.svg"
-                            MinimumHeightRequest="25"
-                            MinimumWidthRequest="25"
-                            MaximumHeightRequest="100"
-                            MaximumWidthRequest="100"
-                            Clicked="OnSendMessage">
+            Source="send_icon.svg"
+            MinimumHeightRequest="25"
+            MinimumWidthRequest="25"
+            MaximumHeightRequest="50"
+            MaximumWidthRequest="50"
+            VerticalOptions="End"
+            Clicked="OnSendMessage"
+            Grid.Column="1">
                             <ImageButton.Source>
                                 <OnPlatform x:TypeArguments="FileImageSource">
                                     <On Platform="Android" Value="send_icon.svg" />
@@ -96,7 +107,7 @@
                                 </OnPlatform>
                             </ImageButton.Source>
                         </ImageButton>
-                    </HorizontalStackLayout>
+                    </Grid>
                 </Frame>
             </VerticalStackLayout>
         </StackLayout>
